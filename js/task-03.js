@@ -22,4 +22,5 @@ const galleryItems = images.map(({ url, alt }) => {
   `;
 });
 
+
 gallery.insertAdjacentHTML('beforeend', galleryItems.join(''));
